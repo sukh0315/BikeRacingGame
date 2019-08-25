@@ -176,6 +176,7 @@
             this.label1.Size = new System.Drawing.Size(14, 13);
             this.label1.TabIndex = 19;
             this.label1.Text = "$";
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // radioButtonAI
             // 

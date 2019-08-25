@@ -104,8 +104,8 @@ namespace BikeRacingGame
 
             //this part is for assigning the constructor values which is created in guy class
             guys[0] = new Guy("Joe", null, 50, radioButtonJoe, labelJoesBet);
-            guys[1] = new Guy("Bob", null, 75, radioButtonBob, labelBobsBet);
-            guys[2] = new Guy("Al", null, 45, radioButtonAI, labelAlsBet);
+            guys[1] = new Guy("Bob", null, 50, radioButtonBob, labelBobsBet);
+            guys[2] = new Guy("Al", null, 50, radioButtonAI, labelAlsBet);
 
             foreach (Guy guy in guys)
             {
@@ -152,6 +152,11 @@ namespace BikeRacingGame
             }
 
             buttonRace.Enabled = true;//here race button is enabled when race is finished
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
 
         }
     }
